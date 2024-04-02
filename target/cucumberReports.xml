@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="68.47" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Blog page on Edureka application" name="Select a learning" time="12.193">
+<system-out><![CDATA[
+Given user is on Edureka Home page..........................................passed
+When user click on Blog.....................................................passed
+And user click on BI and Visualization......................................passed
+And user click on Pentaho BI................................................passed
+When user click on Become a certified professional..........................passed
+Then user click on Enroll now...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blog page on Edureka application" name="Download eBook - Example #1.1" time="10.688">
+<system-out><![CDATA[
+Given user is on Edureka Home page..........................................passed
+When user click on Blog.....................................................passed
+And user click on Ebook.....................................................passed
+And user click on Free Cybersecurity eBook..................................passed
+And user enters the name as "Meenakshi Thota"...............................passed
+And user enters the email as "meenakshi@gmail.com"..........................passed
+And user enters the phone number as "9876543210"............................passed
+And user select the experience as "0-2 Years"...............................passed
+Then user click on Dowload Ebook............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blog page on Edureka application" name="Download eBook - Example #1.2" time="12.342">
+<system-out><![CDATA[
+Given user is on Edureka Home page..........................................passed
+When user click on Blog.....................................................passed
+And user click on Ebook.....................................................passed
+And user click on Free Cybersecurity eBook..................................passed
+And user enters the name as "Pavani"........................................passed
+And user enters the email as "pavani@gmail.com".............................passed
+And user enters the phone number as "9398345678"............................passed
+And user select the experience as "2-5 Years"...............................passed
+Then user click on Dowload Ebook............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blog page on Edureka application" name="Selenium Tutorial" time="11.469">
+<system-out><![CDATA[
+Given user is on Edureka Home page..........................................passed
+When user click on Blog.....................................................passed
+And user scrolls up.........................................................passed
+And user click on vedios....................................................passed
+And user clicks on Selenium tutorial........................................passed
+Then user get serise of vedios..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blog page on Edureka application" name="Interview questions" time="9.889">
+<system-out><![CDATA[
+Given user is on Edureka Home page..........................................passed
+When user click on Blog.....................................................passed
+And user scrolls down.......................................................passed
+And user click on interview question........................................passed
+And user click on oracle interview questions................................passed
+Then user will get interview questions......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blog page on Edureka application" name="Subscribe failure" time="11.683">
+<system-out><![CDATA[
+Given user is on Edureka Home page..........................................passed
+When user click on Blog.....................................................passed
+And user click on subscribe button..........................................passed
+And user enters the username as "Meenakshi Thota"...........................passed
+Then user click on sign up..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
